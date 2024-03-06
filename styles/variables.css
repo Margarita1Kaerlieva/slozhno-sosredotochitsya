@@ -6,8 +6,9 @@
   --accent-header-color: rgb(255, 0, 112);
   --text-color: rgb(0, 0, 40);
   --accent-text: rgb(241, 178, 206);
-  --text-family: IBM Plex Mono, Regular;
+  --text-family: IBM Plex Mono, monospace;
   --color-cover: rgb(0, 0, 40);
+  --outline-color: rgba(255, 0, 112, 0.4);
   --display_icon: flex;
   --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

@@ -7,6 +7,7 @@
   --text-color: rgb(53, 52, 48);
   --accent-text: rgb(53, 52, 48);
   --color-cover: rgb(255, 241, 247);
+  --outline-color: rgba(50, 49, 45, 0.4);
   --display_icon: none;
 }
 
@@ -21,6 +22,7 @@
     --text-color: rgb(53, 52, 48);
     --accent-text: rgb(53, 52, 48);
     --color-cover: rgb(255, 241, 247);
+    --outline-color: rgba(50, 49, 45, 0.4);
     --display_icon: none;
     }
 } 

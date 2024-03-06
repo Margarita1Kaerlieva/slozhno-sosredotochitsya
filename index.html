@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light">
-    <link rel="icon" href="./images/mobile-icon.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
@@ -16,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="rec-icon" aria-hidden="true">REC</div>
+      <span class="rec-icon" aria-hidden="true">reс</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -109,9 +111,10 @@
           </li>
         </ul>
       </section>
+      <section>
         <div class="section_type_item">
           <h2 class="title-search last-line">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-        <div class="section_last_item">
+        <div>
           <h3 class="title-decor title_line">5 простых (на самом деле не очень) советов</h3>
           <ul class="section_line_text">
             <li>
@@ -160,6 +163,7 @@
           </ul>
         </div>
       </div>
+    </section>
       <section class="section_gallery">
         <h2 class="title-search title-decor title-gallery">А можно в картинках?</h2>
          <ul class="cards_gallery">
@@ -186,7 +190,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <p class="footer-text">focus</p>
     </footer>
     <script src="./scripts/script.js"></script>
