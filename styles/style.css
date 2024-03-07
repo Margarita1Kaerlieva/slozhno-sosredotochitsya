@@ -1,8 +1,9 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--text-family, Regular);
+  font-family: var(--text-family, monospace);
   font-size: 18px;
+  line-height: var(--line-height);
   background-image: var(--backround-image);
   background-color: var(--color-cover);
   background-position: center;
@@ -71,7 +72,6 @@
   justify-content: flex-end;
   align-self: center;
   margin-block-end: 4px;
-  line-height: 23.4px;
 }
 
 .header__theme-menu-list { 
@@ -168,7 +168,6 @@
 
 .header-text {
   min-inline-size: 355px;
-  line-height: 23.4px;
 } 
 
 @media (min-width: 768px) {
@@ -208,7 +207,6 @@
   color: var(--color);
   font-size: 18px;
   font-weight: 700;
-  line-height: 23.4px;
   text-align: left;
 }
 
@@ -241,7 +239,6 @@
 .content-text {
   color: var(--accent-text);
   font-weight: 400;
-  line-height: 23.4px;
   margin-block-start: 10px;
   margin-block-end: 20px;
 }
@@ -267,7 +264,6 @@
 
 .section_type_text {
   margin: 31px 10px 0 10px;
-  line-height: 23.4px;
 }
 
 .title_item {
@@ -309,7 +305,6 @@
   flex-direction: column;
   margin: 30px 10px 0 10px;
   gap: 20px;
-  line-height: 23.4px;
 }
 
 .title_line {
@@ -322,13 +317,13 @@
     margin: 60px 20px 0 10px;;
   }
 
-  .last-line {
+  .style-line {
     min-inline-size: 236px;
   }
 }
 
 @media (min-width: 1024px) {
-  .last-line {
+  .style-line {
     min-inline-size: 315px;
   }
 } 
@@ -356,6 +351,7 @@
 .card_size_elem {
   display: block;
   object-fit: cover;
+  object-position: center;
   block-size: 100%;
   inline-size: 100%;
 }
