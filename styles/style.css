@@ -12,13 +12,13 @@
   background-attachment: fixed;
 }
 
- .header {
+.header {
   display: grid;
   align-items: center;
   grid-template-rows: 1fr min-content 1fr;
-  min-block-size: 100vh;
-  max-height: 668px;
   padding: 10px;
+  block-size: 100dvb;
+  min-block-size: 668px; 
 }
 
 .decorated-zone {
@@ -391,8 +391,8 @@
 .footer {
   display: grid;
   grid-template-rows: 1fr;
-  min-block-size: 100vh;
-  max-height: 668px;
+  block-size: 100dvb;
+  min-block-size: 668px; 
   padding: 10px;
   position: relative;
 }
